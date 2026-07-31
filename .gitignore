@@ -1,0 +1,39 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.npy
+
+# Environment
+.env
+.env.local
+
+# Data files
+ml-25m/
+mongodb_data/
+ctr_X.csv
+ctr_y.csv
+ctr_features.csv
+hybrid_recommendations.csv
+top100_hybrid_candidates.csv
+top100_hybrid_candidates.csv
+sample_recommendations.csv
+final_hybrid_top10.csv
+model_comparison.csv
+weight_tuning.csv
+ctr_evaluation.csv
+
+# Frontend
+node_modules/
+dist/
+frontend/.env
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
